@@ -32,17 +32,12 @@ namespace FriendProject {
             return $"{Name, -15} {Phone, -12} {Email, -25} {(BFF ? "BFF" : ""), 3} {HowLong}"; //Interpolation string
         }
 
-            // Is friend BFF or not 
-            public bool CheckBffStatus(bool isBff) {
-            if (isBff == true) {
-                Console.WriteLine("This person is my Best Friend");
-                return true;
-            }
-            return false;
-
-        }
-        //How long have you known friend
+        // set to 10 if BFF and set to 0 if not BFF --- did a TERNARY operation in program.cs
+    
        
+
+
+
 
 
     }
